@@ -1,0 +1,354 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "myriad-pro";
+}
+
+body {
+	color: #b3b3b3;
+	max-width: 1960px;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  }
+
+.group:after {
+  visibility: hidden;
+  display: block;
+  content: "";
+  clear: both;
+  height: 0;
+}
+
+.header-1st-row {
+	 position: relative;
+	 top: 0;
+	 border-bottom: 1px solid #ededed;
+	 height: 41px;
+	 overflow: hidden;
+}
+
+.header-menu {
+    display: inline-block;
+    margin-top: -8px;
+    margin-left: 97px;
+    height: 40px;
+    float: left;
+}
+
+.first-navigation li {
+	display: inline-block;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin: 0 12px;
+    letter-spacing: 1px;
+    font-weight: 600;
+	cursor: pointer;
+}
+
+
+.select-menu-block {
+	display: inline-block;
+	float: right;
+    margin-right: 9%;
+}
+
+.header-select-currency {
+    display: inline-block;
+    overflow: hidden;
+    padding-top: 6px;
+    padding-right: 20px;
+    border-right: 1px solid #ededed;
+    height: 40px;
+}
+
+.header-select-currency select {
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: 5px 22px 5px 5px;
+    background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right;
+    background-size: 10px 10px;
+    text-transform: uppercase;
+    font-size: 11px;
+    color: #b3b3b3;
+    letter-spacing: 1px;
+}
+
+.header-select-currency select:focus {
+	outline: none;
+}
+
+.header-select-language {
+    display: inline-block;
+    overflow: hidden;
+    padding-right: 5px;
+    padding-top: 6px;
+    margin-right: 28px;
+    margin-left: 13px;
+    height: 40px;
+}
+
+.header-select-language select {
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: 5px 12px 5px 5px;
+    background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right;
+    background-size: 10px 10px;
+    text-transform: uppercase;
+    font-size: 11px;
+    color: #b3b3b3;
+    letter-spacing: 1px;
+}
+
+.header-select-language select:focus {
+	outline: none;
+}
+
+.header-2nd-row {
+	height: 105px;
+    border-bottom: 1px solid #ededed;
+	overflow: visible;
+}
+
+.logo {
+	display: inline-block;
+    margin: 32px 0 0 138px;
+}
+
+.menu {
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 17%;
+    height: 105px;
+}
+
+#sale {
+	color: #fc411d;
+}
+
+.second-navigation li {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 0px 26px;
+	cursor: pointer;
+}
+
+.second-navigation li:hover {
+	border-bottom: 2px solid #1b81d8;
+}
+
+.cart-and-search, .cart-item-number, .cart-link, .search-form, .menu {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.search-form input{
+	border: none;
+	background-image: url(img/Rounded-Rectangle-1.png);
+	background-position: 4px 2px;
+	background-size: 16px 16px;
+	background-repeat: no-repeat;
+	width: 24px;
+	-webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+.search-form input:focus {
+	width: 80px;
+	border-bottom: 1px solid #ededed;
+	outline: none;
+	background-image:none;
+}
+
+
+.cart-and-search {
+    margin-right: 8.3%;
+    width: 200px;
+    float: right;
+}
+
+.cart-link {
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 43px;
+}
+
+.cart-item-number {
+    margin-top: 24px;
+    margin-left: 7px;
+    font-size: 12px;
+    background: url(img/Ellipse-1.png);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    background-position: 2px 2px;
+    padding: 21px 24px;
+}
+
+.search-form {
+    margin-left: 13px;
+    margin-top: 42px;
+}
+
+.catalog {
+  height: 180px;
+  overflow: hidden;
+    }
+
+.catalog-name {
+  color: black;
+  text-align: center;
+  font-size: 58px;
+  margin: 98px auto 0 auto;
+  }
+
+  .menu-items {
+    width: 800px;
+    margin-top: 39px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+}
+
+
+  .navigation-items li {
+      display: inline-block;
+      text-transform: uppercase;
+      font-size: 14px;
+      margin: 0px 26px;
+  	  cursor: pointer;
+  }
+
+  .navigation-items li:hover {
+  	border-bottom: 2px solid #1b81d8;
+  }
+
+  .product-container {
+      display: flex;
+      justify-content: center;
+  }
+
+  .product-item-wrap-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-left: 8px;
+    margin-top: 31px;
+    width: 86%;
+}
+
+.product-item-wrap {
+    width: 290px;
+    margin: 1px 7px 34px 7px;
+    cursor: pointer;
+}
+
+  .product-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .product-description {
+    margin-top: 23px;
+}
+
+.product-name, .product-price {
+    text-align: center;
+    display: inline-block;
+    margin-left: 16px;
+    line-height: 30px;
+    width: 80%;
+    font-size: 18px;
+}
+
+#loadMore {
+    width: 200px;
+    height: 75px;
+    padding-top: 14px;
+    padding-right: 43px;
+    margin: auto;
+    text-align: center;
+}
+
+#loadMore a {
+    text-decoration: none;
+    color: #b3b3b3;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.subscription-container {
+  background-image: url(img/Layer252.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
+.subscription-container h2 {
+    font-size: 40px;
+    color: white;
+    width: 380px;
+    margin-top: 17px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 100;
+}
+
+.subscription-container p {
+    color: #496f89;
+    text-transform: uppercase;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 70px;
+    font-size: 14px;
+}
+
+.subscription-form {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.subscription-form input:focus {
+	outline: none;
+	background-image:none;
+}
+
+
+
+.footer {
+  display: flex;
+    flex-flow:row nowrap;
+    height: 110px;
+}
+
+.menu-footer {
+    width: 667px;
+    margin-top: 26px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+}
+
+
+.navigation-footer li {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 0px 26px;
+    cursor: pointer;
+}
+
+.navigation-footer li:hover {
+  border-bottom: 2px solid #1b81d8;
+}
