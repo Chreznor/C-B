@@ -4,6 +4,7 @@
 <head>
 	<title>C&B website</title>
 	<link type="text/css" rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
 	<meta charset="utf-8">
 	<meta name="descriptin" content="This is an attempt to make a real website from a PSD mock-up">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
@@ -49,14 +50,14 @@
 				<li>Home</li>
 			  <li>Catalog</li>
 				<li>News</li>
-				<li>Sale</li>
+				<li id="sale">Sale</li>
 				<li>About</li>
 				<li>Contact</li>
 			  </ul>
 			</nav>
 		  <div class="cart-and-search">
 			  <p class="cart-link">Your bag</p>
-			  <p class="cart-item-number">2</p>
+			  <p class="cart-item-number">0</p>
 			  <form class="search-form">
 			    <input type="text" name="search">
 			  </form>
@@ -173,7 +174,8 @@
      <p>subscribe</p>
 		 <h2>Stay updated on news</h2>
 		 <form class="subscription-form">
-			 <input type="text" name="search">
+			 <input class="subscribtion-form-text" type="text" name="search" placeholder="YOUR EMAIL ADDRESS">
+			 <button>></button>
 		 </form>
 
 	</div>
