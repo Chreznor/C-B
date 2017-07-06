@@ -453,3 +453,65 @@ body {
 
 
 }
+
+@media(max-width: 650px) {
+  .header-2nd-row{
+    display: block;
+    height: auto;
+  }
+
+  .logo, .menu, .cart-and-search {
+    width: 100%;
+    display: block;
+    margin: 20px auto 0 auto;
+    text-align: center;
+    height: auto;
+  }
+
+  .cart-and-search {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  .catalog {
+    height: 60px;
+  }
+
+  .catalog-name {
+    margin: 20px auto 0 auto;
+    font-size: 25px;
+  }
+  
+   .menu-items {
+    width: 200px;
+    margin-top: 20px;
+  }
+
+  .product-item-wrap {
+  margin: 10px 20px;
+  width: 100%;
+}
+
+  .product-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .menu-footer {
+    margin-top: 10px;
+  }
+
+  .navigation-footer li {
+    margin: 0px 35px;
+    width: 20%;
+    text-align: center;
+}
+
+.contact-info {
+    margin-right: 20px;
+    margin-top: 44px;
+    font-size: 8px;
+    width: 197px;
+}
+
+}
